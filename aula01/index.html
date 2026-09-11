@@ -1,10 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <title>Aula de HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCão</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+    <header>
+        <a href="#" class="logo">PetCão</a>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#mapa">Mapa</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero"></section>
+
+        <section id="sobre">
+            <h1>Sobre</h1>
+
+            <p>O PetCão é um petshop dedicado a oferecer cuidado, carinho e bem-estar para os animais de estimação. Nosso objetivo é proporcionar uma experiência segura e acolhedora para os pets, oferecendo produtos e serviços pensados para atender as necessidades de cada animal.</p>
+
+            <p>Mais do que um petshop, o PetCão busca ser um lugar de confiança para quem considera seu animal parte da família. Trabalhamos com atenção, responsabilidade e amor pelos pets, prezando sempre pelo cuidado no atendimento.</p>
+        </section>
+
+        <section id="galeria">
+            <h1>Galeria</h1>
+
+            <img src="img/01.jpg">
+            <img src="img/02.jpg">
+            <img src="img/03.jpg">
+            <img src="img/04.jpg">
+            <img src="img/05.jpg">
+            <img src="img/06.jpg">
+        </section>
+
+        <section id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d... "
+                width="100%"
+                style="height:100vh; border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+        </section>
+
+        <section id="contato">
+            <h1>Contato</h1>
+
+            <form>
+
+                <label>Nome
+                    <input type="text" name="nome">
+                </label>
+
+                <label>Email
+                    <input type="email" name="email">
+                </label>
+
+                <label>Mensagem
+                    <textarea name="mensagem" rows="5"></textarea>
+                </label>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Todos os Direitos Reservados :: Desenvolvido por: <a href="mailto:eberbastos615@gmail.com">Éber Bastos</a></p>
+    </footer>
 
 </body>
 </html>
